@@ -63,11 +63,11 @@ def finish(frame, i):
 
 # scenes: (duration, start_box, end_box, caption, caption_y)
 S = [
-    (R, 3.4, box(600, 700, 1417), box(620, 600, 1150), 'POV: you wore this|to one party and now|everyone wants one', 1380),
+    (R, 3.0, box(600, 700, 1417), box(620, 600, 1150), 'POV: you wore this|to one party and now|everyone wants one', 1380),
     (R, 3.0, box(690, 420, 620), box(690, 440, 460), 'Zoom in. Every dot is|a hand stitch.', 260),
     (R, 3.0, box(860, 500, 520), box(870, 520, 400), 'The design evolves|as it is stitched', 260),
     (R, 3.0, box(690, 535, 420), box(690, 535, 300), 'Embroidered by hand,|start to finish', 260),
-    (G, 3.6, box(405, 720, 1440, 1440), box(765, 720, 1440, 1440), 'No two pieces|are identical', 1520),
+    (G, 4.0, box(405, 720, 1440, 1440), box(765, 720, 1440, 1440), 'No two pieces|are identical', 1520),
     (G, 3.0, box(300, 700, 620, 1440), box(310, 720, 480, 1440), 'Once a design is made,|it is never repeated', 260),
     (G, 3.0, box(960, 560, 620, 1440), box(980, 560, 480, 1440), 'Made individually|to order', 260),
 ]
